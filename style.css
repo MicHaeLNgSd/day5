@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-light{
+    background-color: wheat;
+}
+.container-light{
+    background-color: burlywood;
+}
+
+.body-dark{
+    background-color: violet;
+}
+.container-dark{
+
+    background-color: blueviolet;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 50px;
+    padding: 20px;
+
+    border-radius: 20px;
+    width: max-content;
+}
